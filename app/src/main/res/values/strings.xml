@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SeThings</string>
+    <string name="button1">Click Me</string>
+    <string name="tutorial">Tutorial</string>
+    <string name="explore">Explore</string>
+    <string name="content_1">Create your own IoT project with SeThings.
+        You can build your IoT project easily without code. Set your Device and control it
+        by drag and drop
+    </string>
+    <string name="content_2">
+        SeThings can create your automation for your home.
+        SeThings can show the energy consumption and control your device as you wish.
+    </string>
+    <string name="title_activity_home">Home</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+</resources>

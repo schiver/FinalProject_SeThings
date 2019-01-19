@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="300dp"
+    android:layout_height="275dp"
+    android:padding="5dp"
+    android:layout_gravity="center"
+    android:background="@color/myWhite">
+    <ImageView
+        android:id="@+id/CloseButton"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:background="@drawable/circle_fill"
+        android:src="@drawable/ic_close"
+        android:layout_gravity="end"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textColor="@color/colorGray"
+        android:text="Device Add"/>
+
+    <EditText
+        android:id="@+id/EdtDeviceID"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="20dp"
+        android:hint="Device ID"
+        android:ems="20"
+        android:background="@drawable/edit_box"
+        android:drawableLeft="@drawable/user_icon"/>
+    <EditText
+        android:id="@+id/EdtDeviceName"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:layout_marginTop="5dp"
+        android:hint="Device Name"
+        android:ems="20"
+        android:background="@drawable/edit_box"
+        android:drawableLeft="@drawable/user_icon"/>
+    <com.weiwangcn.betterspinner.library.BetterSpinner
+        android:id="@+id/EdtDeviceType"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginTop="5dp"
+        android:hint="Device Type"
+        android:drawableLeft="@drawable/user_icon"/>
+    <Button
+        android:id="@+id/BtnAddDevice"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="7dp"
+        android:background="@drawable/button_login"
+        android:text="Add Device"
+        android:textColor="@color/myWhite"
+        android:textSize="15sp"
+        android:theme="@style/MyButton" />
+</LinearLayout>

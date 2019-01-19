@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Larger blue circle in back -->
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/myWhite"/>
+            <stroke android:width="2dp" android:color="@color/colorBase1"></stroke>
+            <size
+                android:width="96dp"
+                android:height="96dp"/>
+            <solid android:color="@color/colorBase1"/>
+        </shape>
+    </item>
+</layer-list>
